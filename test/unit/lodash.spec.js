@@ -446,8 +446,7 @@ describe('Lodash training', function ()
                 expect(params).to.have.length(2);
                 expect(typeof multiplier).to.eql('number');
                 expect(typeof multiplicand).to.eql('number');
-                expect(multiplier).to.be.below(0);
-                expect(multiplicand).to.be.below(0);
+
             });
 
             it('should multiply two number', function ()
